@@ -1,0 +1,16 @@
+{
+  "name": "webpack-watch-test-repo",
+  "version": "1.0.0",
+  "description": "Test repo for webpack watch bug",
+  "main": "src/index.ts",
+  "author": "zatloeri",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "webpack": "4.44.2",
+    "webpack-cli": "4.0.0"
+  },
+  "scripts": {
+    "test": "NODE_ENV=development webpack"
+  }
+}
